@@ -4,7 +4,7 @@ A single-page portfolio for a Lead Software Development Engineer in Test, built
 with React and Vite. It leads with quality-engineering outcomes, then covers
 the career timeline, automation depth, recognition and a QA-focused ATS check.
 
-Live site: <https://littleadam.github.io/Parvathy-Krishnan/>
+Live site: <https://parvathy-krishnan.github.io/parvathy-krishnan-portfolio/>
 
 ## Run locally
 
@@ -74,7 +74,7 @@ Lebenslauf and Europass CV from `scripts/generate-extra-cvs.mjs`.
 
 - `public/og-cover.png` — 1200 × 630 social share image, referenced by the
   Open Graph and Twitter meta tags through
-  `https://littleadam.github.io/Parvathy-Krishnan/og-cover.png`.
+  `https://parvathy-krishnan.github.io/parvathy-krishnan-portfolio/og-cover.png`.
 - `public/favicon.svg` — PK monogram favicon.
 - `public/robots.txt` and `public/sitemap.xml` — crawler metadata for the
   GitHub Pages URL.

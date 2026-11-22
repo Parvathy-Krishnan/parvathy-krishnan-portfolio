@@ -29,7 +29,7 @@ const OUT_DIR = path.resolve("public");
 /* shared content                                                    */
 /* ---------------------------------------------------------------- */
 
-const website = "littleadam.github.io/Parvathy-Krishnan";
+const website = "parvathy-krishnan.github.io/parvathy-krishnan-portfolio";
 
 const isMotherTongue = (language) =>
   /mother tongue|muttersprache|langue maternelle|^native$/i.test(

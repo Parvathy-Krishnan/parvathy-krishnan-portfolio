@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://littleadam.github.io/Parvathy-Krishnan/sitemap.xml
+Sitemap: https://parvathy-krishnan.github.io/parvathy-krishnan-portfolio/sitemap.xml

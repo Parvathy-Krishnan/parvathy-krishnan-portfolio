@@ -27,7 +27,7 @@ export const cv = {
     [
       "linkedin.com/in/parvathykrish",
       "github.com/Parvathy-Krishnan",
-      "littleadam.github.io/Parvathy-Krishnan",
+      "parvathy-krishnan.github.io/parvathy-krishnan-portfolio",
     ],
   ],
   summary:
@@ -162,7 +162,7 @@ export const cv = {
     },
   ],
   additional: [
-    "Portfolio: littleadam.github.io/Parvathy-Krishnan",
+    "Portfolio: parvathy-krishnan.github.io/parvathy-krishnan-portfolio",
     "Open to Lead SDET, test automation and quality engineering roles across product teams.",
     "Willing to relocate to the job location.",
   ],
@@ -194,7 +194,7 @@ export const cvDe = {
     [
       "linkedin.com/in/parvathykrish",
       "github.com/Parvathy-Krishnan",
-      "littleadam.github.io/Parvathy-Krishnan",
+      "parvathy-krishnan.github.io/parvathy-krishnan-portfolio",
     ],
   ],
   summary:
@@ -309,7 +309,7 @@ export const cvDe = {
     },
   ],
   additional: [
-    "Portfolio: littleadam.github.io/Parvathy-Krishnan",
+    "Portfolio: parvathy-krishnan.github.io/parvathy-krishnan-portfolio",
     "Offen für Rollen als Lead SDET, in der Testautomatisierung und im Qualitätsengineering in Produktteams.",
     "Bereit, an den Arbeitsort umzuziehen.",
   ],
@@ -341,7 +341,7 @@ export const cvFr = {
     [
       "linkedin.com/in/parvathykrish",
       "github.com/Parvathy-Krishnan",
-      "littleadam.github.io/Parvathy-Krishnan",
+      "parvathy-krishnan.github.io/parvathy-krishnan-portfolio",
     ],
   ],
   summary:
@@ -476,7 +476,7 @@ export const cvFr = {
     },
   ],
   additional: [
-    "Portfolio : littleadam.github.io/Parvathy-Krishnan",
+    "Portfolio : parvathy-krishnan.github.io/parvathy-krishnan-portfolio",
     "Ouverte aux postes de Lead SDET, d'automatisation des tests et d'ingénierie qualité au sein d'équipes produit.",
     "Disposée à déménager près du lieu de travail.",
   ],
