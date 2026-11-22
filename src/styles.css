@@ -1,40 +1,40 @@
 /* ============================================================
    Parvathy Krishnan — Lead SDET
-   Warm, assured editorial system: ivory paper, plum ink,
-   sage and clay accents, soft radii and a serif display voice.
+   Cool blueprint system: slate-blue paper, deep ink, cobalt,
+   cyan and amber accents, geometric sans display voice.
    ============================================================ */
 
 :root {
-  --paper: #faf7f2;
-  --surface: #fffdfa;
-  --surface-alt: #f3eee7;
-  --ink: #241c26;
-  --ink-2: #4b4150;
-  --ink-3: #746a78;
-  --muted: #7c7280;
-  --rule: #e2d9cd;
-  --rule-soft: #ece5da;
-  --rule-strong: #c9b9a9;
-  --navy: #4b2a4f;
-  --navy-deep: #351b39;
-  --navy-soft: #ede3ee;
-  --navy-tint: #f0e7f1;
-  --navy-wash: #f7f1f7;
-  --teal: #4f6b52;
-  --teal-tint: #e8efe7;
-  --teal-wash: #f3f7f1;
-  --ochre: #a9713f;
-  --ochre-tint: #f6ebdf;
-  --ochre-wash: #fbf4ec;
-  --rust: #8c4a55;
-  --rust-tint: #f5e7e9;
-  --rust-wash: #fbf3f4;
-  --serif: "Fraunces Variable", "Fraunces", Georgia, "Times New Roman", serif;
+  --paper: #eef3f8;
+  --surface: #ffffff;
+  --surface-alt: #e5edf6;
+  --ink: #0b1a2b;
+  --ink-2: #274059;
+  --ink-3: #516a83;
+  --muted: #637b92;
+  --rule: #c6d4e3;
+  --rule-soft: #dce6f0;
+  --rule-strong: #9fb3c8;
+  --navy: #0d5aa7;
+  --navy-deep: #073d73;
+  --navy-soft: #d8e8f8;
+  --navy-tint: #e6f1fb;
+  --navy-wash: #eef5fc;
+  --teal: #00887e;
+  --teal-tint: #d5f1ed;
+  --teal-wash: #ecf9f6;
+  --ochre: #d97706;
+  --ochre-tint: #fdf0da;
+  --ochre-wash: #fff8ed;
+  --rust: #b83261;
+  --rust-tint: #f9e1eb;
+  --rust-wash: #fdf2f6;
+  --serif: "Space Grotesk Variable", "Space Grotesk", "Inter Variable", Inter, system-ui, sans-serif;
   --sans: "Inter Variable", "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono: ui-monospace, "SFMono-Regular", "Cascadia Mono", "Roboto Mono", Menlo, monospace;
-  --shadow: 0 1px 2px rgba(36, 28, 38, 0.05);
-  --shadow-soft: 0 18px 40px -30px rgba(75, 42, 79, 0.4);
-  --radius: 12px;
+  --shadow: 0 1px 2px rgba(11, 26, 43, 0.06);
+  --shadow-soft: 0 18px 40px -30px rgba(13, 90, 167, 0.45);
+  --radius: 14px;
   --ease: cubic-bezier(0.2, 0.6, 0.2, 1);
   --nav-h: 74px;
   --pad: clamp(1.35rem, 4vw, 2.5rem);
@@ -368,7 +368,7 @@ button {
 }
 
 .nav.is-scrolled {
-  background: rgba(250, 247, 242, 0.97);
+  background: rgba(238, 243, 248, 0.97);
   border-bottom-color: var(--rule);
 }
 
@@ -505,7 +505,7 @@ button {
 
 .hero {
   padding: calc(var(--nav-h) + clamp(3rem, 7vw, 6rem)) 0 clamp(3rem, 6vw, 5rem);
-  background: #f4f8f9;
+  background: #eaf2fb;
 }
 
 .hero-grid {
@@ -613,7 +613,7 @@ button {
   padding: 0.8rem 0.95rem 0.9rem;
   border: 1px solid var(--rule);
   background: var(--surface);
-  box-shadow: 0 22px 44px -28px rgba(23, 50, 77, 0.45);
+  box-shadow: 0 22px 44px -28px rgba(7, 61, 115, 0.35);
 }
 
 .cv-menu-right {
@@ -3096,6 +3096,10 @@ button {
     margin-top: 1.5rem;
   }
 
+  .cv-menu-wrap.mobile-cv .cv-menu-trigger {
+    width: 100%;
+  }
+
   .mobile-meta {
     display: flex;
     gap: 8px;
@@ -3266,6 +3270,11 @@ button {
     font-size: clamp(2.6rem, 13vw, 3.4rem);
   }
 
+  .hero-certification {
+    font-size: 0.73rem;
+    padding: 6px 10px 6px 9px;
+  }
+
   .hero-role {
     font-size: 0.73rem;
     letter-spacing: 0.1em;
@@ -3325,7 +3334,7 @@ button {
 
 /* ============================================================
    Parvathy Krishnan — visual layer
-   Soft editorial: plum ink, sage/clay accents, rounded surfaces.
+   Cool blueprint: cobalt/cyan/amber accents on slate-blue paper.
    ============================================================ */
 
 body {
@@ -3364,7 +3373,7 @@ body {
 }
 
 .nav.is-scrolled {
-  background: rgba(250, 247, 242, 0.97);
+  background: rgba(238, 243, 248, 0.97);
   border-bottom-color: var(--rule);
 }
 
@@ -3372,7 +3381,7 @@ body {
   border-radius: 11px;
   border-color: var(--navy);
   background: var(--navy);
-  color: #fffdfa;
+  color: #ffffff;
 }
 
 .nav-links a {
@@ -3395,7 +3404,7 @@ body {
   border-radius: 999px;
   border-color: var(--navy);
   background: var(--navy);
-  color: #fffdfa;
+  color: #ffffff;
 }
 
 .nav-cv:hover {
@@ -3428,7 +3437,7 @@ body {
 /* ---------- hero ---------- */
 
 .hero {
-  background: linear-gradient(180deg, #f7f1f7 0%, var(--paper) 82%);
+  background: linear-gradient(180deg, #dfeaf6 0%, var(--paper) 82%);
   border-bottom: 1px solid var(--rule-soft);
 }
 
@@ -3440,6 +3449,32 @@ body {
   font-style: italic;
   font-weight: 400;
   color: var(--navy);
+}
+
+.hero-certification {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 1rem;
+  padding: 7px 13px 7px 10px;
+  border: 1px solid var(--rule-strong);
+  border-left: 3px solid var(--teal);
+  background: var(--surface);
+  color: var(--ink-2);
+  font-size: 0.79rem;
+  line-height: 1.35;
+  letter-spacing: 0.015em;
+}
+
+.hero-certification svg {
+  flex: none;
+  color: var(--teal);
+}
+
+.hero-certification strong {
+  color: var(--ink);
+  font-weight: 650;
+  letter-spacing: 0.04em;
 }
 
 .hero-role {
@@ -3491,7 +3526,7 @@ body {
 
 .cv-menu {
   border-radius: 14px;
-  box-shadow: 0 24px 50px -30px rgba(53, 27, 57, 0.55);
+  box-shadow: 0 24px 50px -30px rgba(7, 61, 115, 0.45);
 }
 
 /* ---------- metrics band ---------- */
@@ -3502,23 +3537,23 @@ body {
 }
 
 .metrics .eyebrow {
-  color: #d3c2d5;
+  color: #bcd6ef;
 }
 
 .metrics .eyebrow::before {
-  background: #d3c2d5;
+  background: #bcd6ef;
 }
 
 .metrics .section-title {
-  color: #fdf8ef;
+  color: #ffffff;
 }
 
 .metrics .section-title em {
-  color: #e3b7a1;
+  color: #8ee6d9;
 }
 
 .metrics .section-lede {
-  color: #cdbdd0;
+  color: #b6cde2;
 }
 
 .metrics-grid {
@@ -3531,25 +3566,25 @@ body {
 .metric:nth-child(3),
 .metric:nth-child(4) {
   background: transparent;
-  border-top: 2px solid #d6c6d8;
+  border-top: 2px solid #a9c8e4;
   border-left: 1px solid rgba(255, 255, 255, 0.14);
   padding: 1.75rem 1.5rem 1.65rem;
 }
 
 .metric:nth-child(1) {
-  border-top-color: #d8a273;
+  border-top-color: #4cc9c0;
 }
 
 .metric:nth-child(2) {
-  border-top-color: #a9c4a5;
+  border-top-color: #7fe0b8;
 }
 
 .metric:nth-child(3) {
-  border-top-color: #e3b7bf;
+  border-top-color: #ffb8cf;
 }
 
 .metric:nth-child(4) {
-  border-top-color: #d6c6d8;
+  border-top-color: #a9c8e4;
 }
 
 .metric:first-child {
@@ -3558,15 +3593,15 @@ body {
 }
 
 .metric-value {
-  color: #fdf8ef;
+  color: #ffffff;
 }
 
 .metric-label {
-  color: #f6efe6;
+  color: #eaf3fb;
 }
 
 .metric-note {
-  color: #c7b9ca;
+  color: #a9c2d8;
 }
 
 /* ---------- profile ---------- */
@@ -4027,7 +4062,7 @@ body {
 
 .award-card.has-year {
   background: var(--navy-wash);
-  border-color: #e0cfe2;
+  border-color: #c3d9ec;
 }
 
 .award-top {
@@ -4127,7 +4162,7 @@ body {
 
 .footer {
   background: var(--navy-deep);
-  color: #f3e9f0;
+  color: #e9f2fb;
 }
 
 .footer::before {
@@ -4137,7 +4172,7 @@ body {
 .footer-inner {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  color: #c9b8cc;
+  color: #b3c9dd;
 }
 
 .footer-brand {
@@ -4150,36 +4185,36 @@ body {
   flex: none;
   border-color: rgba(255, 255, 255, 0.32);
   background: transparent;
-  color: #fdf8ef;
+  color: #ffffff;
 }
 
 .footer-brand strong {
   font-size: 0.95rem;
-  color: #fdf8ef;
+  color: #ffffff;
 }
 
 .footer-role {
   margin-top: 2px;
-  color: #c9b8cc;
+  color: #b3c9dd;
 }
 
 .footer-site {
   display: inline-block;
   margin-top: 3px;
-  color: #e3b7a1;
+  color: #8ee6d9;
 }
 
 .footer-site:hover {
-  border-bottom-color: #e3b7a1;
+  border-bottom-color: #8ee6d9;
 }
 
 .footer-meta {
   flex-wrap: wrap;
-  color: #c9b8cc;
+  color: #b3c9dd;
 }
 
 .footer-meta a:hover {
-  color: #fffdfa;
+  color: #ffffff;
 }
 
 /* ---------- responsive additions ---------- */

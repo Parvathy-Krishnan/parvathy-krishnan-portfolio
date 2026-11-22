@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import { ChevronDown, Download } from "lucide-react";
 import { CV_FORMATS } from "../data";
 
@@ -6,11 +6,14 @@ export default function CvDownload({
   label = "Download CV",
   variant = "secondary",
   align = "left",
+  triggerClassName,
+  wrapClassName,
 }) {
   const [open, setOpen] = useState(false);
   const wrapRef = useRef(null);
   const buttonRef = useRef(null);
   const menuRef = useRef(null);
+  const menuId = useId();
 
   useEffect(() => {
     if (!open) return undefined;
@@ -36,13 +39,16 @@ export default function CvDownload({
   }, [open]);
 
   return (
-    <div className={`cv-menu-wrap cv-menu-${align}`} ref={wrapRef}>
+    <div
+      className={`cv-menu-wrap cv-menu-${align} ${wrapClassName ?? ""}`.trim()}
+      ref={wrapRef}
+    >
       <button
         ref={buttonRef}
         type="button"
-        className={`btn btn-${variant} cv-menu-trigger`}
+        className={`${triggerClassName ?? `btn btn-${variant}`} cv-menu-trigger`}
         aria-expanded={open}
-        aria-controls="cv-format-menu"
+        aria-controls={menuId}
         onClick={() => setOpen((value) => !value)}
       >
         <Download size={15} strokeWidth={1.9} aria-hidden="true" />
@@ -56,7 +62,7 @@ export default function CvDownload({
       </button>
 
       <div
-        id="cv-format-menu"
+        id={menuId}
         ref={menuRef}
         className="cv-menu"
         role="group"

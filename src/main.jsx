@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "@fontsource-variable/fraunces";
-import "@fontsource-variable/fraunces/wght-italic.css";
+import "@fontsource-variable/space-grotesk";
 import "@fontsource-variable/inter";
 import App from "./App";
 import "./styles.css";

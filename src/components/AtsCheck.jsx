@@ -1,6 +1,5 @@
 import { useMemo, useRef, useState } from "react";
 import {
-  ArrowDownToLine,
   CircleAlert,
   CircleCheck,
   FileText,
@@ -11,7 +10,7 @@ import {
   X,
 } from "lucide-react";
 import { analyzeJob } from "../ats";
-import { CV_URL } from "../data";
+import CvDownload from "./CvDownload";
 import Reveal from "./Reveal";
 
 async function extractFileText(file) {
@@ -82,10 +81,7 @@ function AtsResult({ result }) {
         <p>{result.summary}</p>
         <div className="ats-score-meta">
           <span>{result.wordCount} words analysed</span>
-          <a href={CV_URL} download className="text-link">
-            Download CV
-            <ArrowDownToLine size={14} strokeWidth={1.8} aria-hidden="true" />
-          </a>
+          <CvDownload label="Download CV" align="right" triggerClassName="text-link" />
         </div>
       </aside>
 

@@ -40,8 +40,8 @@ All copy and links live in one place:
   German and French CV content.
 - `src/styles.css` — design tokens, typography, layout and responsive rules.
 
-The visual system is warm and editorial: ivory paper, plum ink, sage and clay
-accents, Fraunces for display type and Inter for body copy. It deliberately
+The visual system is a cool blueprint: slate-blue paper, deep ink, cobalt, cyan
+and amber accents, Space Grotesk for display type and Inter for body copy. It deliberately
 differs from the companion profile at
 <https://littleadam.github.io/arul-muruga-portfolio/> while sharing the same
 content discipline.

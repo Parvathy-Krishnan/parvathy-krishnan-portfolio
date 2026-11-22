@@ -51,6 +51,7 @@ export const profile = {
   roleLong:
     "Lead SDET | Test Automation | Quality Engineering across web, mobile, API and performance",
   credentials: "B.E., M.B.A.",
+  certification: "ISTQB® Foundation Level (CTFL)",
   location: "Chennai, India",
   website: "https://parvathy-krishnan.github.io/parvathy-krishnan-portfolio/",
   websiteDisplay: "parvathy-krishnan.github.io/parvathy-krishnan-portfolio",
@@ -113,6 +114,7 @@ export const atAGlance = [
   ["Tenure", "13+ years in quality engineering"],
   ["At Comcast", "Since Sep 2019"],
   ["Current role", "Lead SDET"],
+  ["Certification", "ISTQB® Foundation Level (CTFL)"],
   ["Coverage", "Web · mobile · API · performance"],
   ["Client work", "Singapore"],
   ["Relocation", "Willing to move to the job location"],

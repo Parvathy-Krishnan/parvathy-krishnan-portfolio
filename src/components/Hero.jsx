@@ -1,4 +1,4 @@
-import { ArrowRight, MapPin } from "lucide-react";
+import { ArrowRight, BadgeCheck, MapPin } from "lucide-react";
 import { atAGlance, domains, profile } from "../data";
 import CvDownload from "./CvDownload";
 
@@ -19,6 +19,13 @@ export default function Hero() {
             <br />
             <em>{profile.lastName}</em>
           </h1>
+
+          <p className="hero-certification">
+            <BadgeCheck size={17} strokeWidth={2} aria-hidden="true" />
+            <span>
+              <strong>ISTQB®</strong> Certified Tester · Foundation Level
+            </span>
+          </p>
 
           <p className="hero-role">
             Lead Software Development Engineer in Test
